@@ -26,6 +26,7 @@ class Student :
     def average(self):
         return "{:2f}".format(self.get_sum()/4)
 
+    #밑에 students는 list 인가 array 인가
 students=[
     Student("송강호",97,98,95,90),
     Student("아이유",97,90,100,82),
