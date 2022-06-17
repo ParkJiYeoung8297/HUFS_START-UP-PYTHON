@@ -1,4 +1,4 @@
-#1-4반 학급 성적
+#1-4반 학급 성적  dict형식으로 저장함
 students=[
     {"이름": '송강호', 'korean':97,"math":91,"english":96,"science":82},
     {"이름": '아이유', 'korean':95,"math":90,"english":92,"science":86},
@@ -7,7 +7,7 @@ students=[
     {"이름": '송강', 'korean':87,"math":82,"english":96,"science":98},
 ]
 
-for student in students:
+for student in students:    #students에 있는 이름 요소의 value값을 가지고 옴
     print(student.get("이름"))
 
 #클래스
